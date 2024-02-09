@@ -1,9 +1,7 @@
 [
   {
     "attributes": {
-      "command": "generate component",
-      "verbose": false,
-      "rollback": true,
+      "command": "setup deploy netlify",
       "force": false
     },
     "links": [],
@@ -15,27 +13,27 @@
       "code": 1
     },
     "endTime": [
-      1707449973,
-      982766616
+      1707521362,
+      37326001
     ],
     "_ended": true,
     "_duration": [
-      9,
-      522766616
+      4,
+      70326001
     ],
     "name": "cli",
     "_spanContext": {
-      "traceId": "caf489339732bbf8028fb8be46c221a6",
-      "spanId": "f2fd977da1e75adf",
+      "traceId": "63875fb390f52f71f2460202c9333757",
+      "spanId": "f1c05f3f4b8c0121",
       "traceFlags": 1
     },
     "kind": 0,
-    "_performanceStartTime": 4730.395770000003,
-    "_performanceOffset": -0.61572265625,
+    "_performanceStartTime": 5831.590308000334,
+    "_performanceOffset": -0.161376953125,
     "_startTimeProvided": false,
     "startTime": [
-      1707449964,
-      460000000
+      1707521357,
+      967000000
     ],
     "resource": {
       "_attributes": {
