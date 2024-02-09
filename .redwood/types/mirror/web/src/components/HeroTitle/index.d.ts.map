@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [
+    "../../../../../../../web/src/components/HeroTitle/HeroTitle.jsx"
+  ],
+  "names": [],
+  "mappings": ";;;AAaA",
+  "file": "index.d.ts"
+}

@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [
+    "../../../web/src/Routes.jsx"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;;IAcM",
+  "file": "web-routerRoutes.d.ts"
+}
