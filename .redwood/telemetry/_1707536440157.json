@@ -15,27 +15,27 @@
       "code": 1
     },
     "endTime": [
-      1707450845,
-      538391308
+      1707536445,
+      334419462
     ],
     "_ended": true,
     "_duration": [
-      1,
-      311391308
+      5,
+      164419462
     ],
     "name": "cli",
     "_spanContext": {
-      "traceId": "e5d33c066cd85f403261dd76de0e6d01",
-      "spanId": "cf968d1929341dd2",
+      "traceId": "a4d988a6afd21075cc86238f6cf80e1f",
+      "spanId": "c63f42a73183bc62",
       "traceFlags": 1
     },
     "kind": 0,
-    "_performanceStartTime": 4122.253384999931,
-    "_performanceOffset": -0.369384765625,
+    "_performanceStartTime": 7796.5294619998895,
+    "_performanceOffset": -0.901611328125,
     "_startTimeProvided": false,
     "startTime": [
-      1707450844,
-      227000000
+      1707536440,
+      170000000
     ],
     "resource": {
       "_attributes": {
@@ -60,7 +60,7 @@
         "sides": "web,api",
         "experiments": "[\"vite\"]",
         "webBundler": "vite",
-        "uid": "fd93e111-ae15-4747-bce4-f494121f8c79"
+        "uid": "74fcf38f-901d-4879-b005-f00c1e34313e"
       },
       "asyncAttributesPending": false,
       "_syncAttributes": {
@@ -85,7 +85,7 @@
         "sides": "web,api",
         "experiments": "[\"vite\"]",
         "webBundler": "vite",
-        "uid": "fd93e111-ae15-4747-bce4-f494121f8c79"
+        "uid": "74fcf38f-901d-4879-b005-f00c1e34313e"
       }
     },
     "instrumentationLibrary": {

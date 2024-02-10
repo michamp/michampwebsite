@@ -15,27 +15,27 @@
       "code": 1
     },
     "endTime": [
-      1707510889,
-      542198622
+      1707606782,
+      842255770
     ],
     "_ended": true,
     "_duration": [
-      1,
-      610198622
+      6,
+      215255770
     ],
     "name": "cli",
     "_spanContext": {
-      "traceId": "a252bd84f0bad90c625b3861142ee50d",
-      "spanId": "b4dc4ce7d4844111",
+      "traceId": "426ab95923e6e1abe4b8770aa351e6c8",
+      "spanId": "5ac6a1e0b4676c36",
       "traceFlags": 1
     },
     "kind": 0,
-    "_performanceStartTime": 4415.544713000003,
-    "_performanceOffset": -0.168701171875,
+    "_performanceStartTime": 4661.055769000202,
+    "_performanceOffset": -0.209716796875,
     "_startTimeProvided": false,
     "startTime": [
-      1707510887,
-      932000000
+      1707606776,
+      627000000
     ],
     "resource": {
       "_attributes": {
@@ -50,7 +50,6 @@
         "node.version": "18.19.0",
         "yarn.version": "1.22.21",
         "npm.version": "10.2.3",
-        "vscode.version": "1.86.1",
         "cpu.count": 6,
         "memory.gb": 3,
         "env.node_env": null,
@@ -60,7 +59,7 @@
         "sides": "web,api",
         "experiments": "[\"vite\"]",
         "webBundler": "vite",
-        "uid": "fd93e111-ae15-4747-bce4-f494121f8c79"
+        "uid": "74fcf38f-901d-4879-b005-f00c1e34313e"
       },
       "asyncAttributesPending": false,
       "_syncAttributes": {
@@ -75,7 +74,6 @@
         "node.version": "18.19.0",
         "yarn.version": "1.22.21",
         "npm.version": "10.2.3",
-        "vscode.version": "1.86.1",
         "cpu.count": 6,
         "memory.gb": 3,
         "env.node_env": null,
@@ -85,7 +83,7 @@
         "sides": "web,api",
         "experiments": "[\"vite\"]",
         "webBundler": "vite",
-        "uid": "fd93e111-ae15-4747-bce4-f494121f8c79"
+        "uid": "74fcf38f-901d-4879-b005-f00c1e34313e"
       }
     },
     "instrumentationLibrary": {

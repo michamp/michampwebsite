@@ -17,7 +17,8 @@
 
 .highlight {
   color: light-dark(var(--mantine-color-red-6));
-
+  border-color: light-dark(var(--mantine-color-red-6));
+  border-inline-color: light-dark(var(--mantine-color-red-6));
 }
 
 .title {

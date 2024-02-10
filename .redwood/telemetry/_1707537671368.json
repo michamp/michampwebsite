@@ -1,10 +1,10 @@
 [
   {
     "attributes": {
-      "command": "generate component",
-      "verbose": false,
-      "rollback": true,
-      "force": false
+      "command": "dev",
+      "side": "[\"api\",\"web\"]",
+      "generate": true,
+      "watchNodeModules": false
     },
     "links": [],
     "events": [],
@@ -15,27 +15,27 @@
       "code": 1
     },
     "endTime": [
-      1707450034,
-      448393154
+      1707537674,
+      41588462
     ],
     "_ended": true,
     "_duration": [
-      7,
-      207393154
+      2,
+      660588462
     ],
     "name": "cli",
     "_spanContext": {
-      "traceId": "d9619baacd17e1aebc0a9150bb524994",
-      "spanId": "cf3c34e5c3659253",
+      "traceId": "23af920c19298a6b5cb84ccc1fd58ab4",
+      "spanId": "2aed7ed20f64bea8",
       "traceFlags": 1
     },
     "kind": 0,
-    "_performanceStartTime": 2961.8126919999777,
-    "_performanceOffset": -1.002685546875,
+    "_performanceStartTime": 6529.923770000227,
+    "_performanceOffset": -1.063720703125,
     "_startTimeProvided": false,
     "startTime": [
-      1707450027,
-      241000000
+      1707537671,
+      381000000
     ],
     "resource": {
       "_attributes": {
@@ -60,7 +60,7 @@
         "sides": "web,api",
         "experiments": "[\"vite\"]",
         "webBundler": "vite",
-        "uid": "fd93e111-ae15-4747-bce4-f494121f8c79"
+        "uid": "74fcf38f-901d-4879-b005-f00c1e34313e"
       },
       "asyncAttributesPending": false,
       "_syncAttributes": {
@@ -85,7 +85,7 @@
         "sides": "web,api",
         "experiments": "[\"vite\"]",
         "webBundler": "vite",
-        "uid": "fd93e111-ae15-4747-bce4-f494121f8c79"
+        "uid": "74fcf38f-901d-4879-b005-f00c1e34313e"
       }
     },
     "instrumentationLibrary": {
