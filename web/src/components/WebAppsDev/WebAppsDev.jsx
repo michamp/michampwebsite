@@ -1,33 +1,33 @@
 import { Title, SimpleGrid, Text, Button, ThemeIcon, Grid, rem } from '@mantine/core';
 import { IconReceiptOff, IconFlame, IconCircleDotted, IconFileCode } from '@tabler/icons-react';
-import { IconSquare1Filled,IconSquare2Filled,IconSquare3Filled,IconSquare4Filled,IconSquare5Filled } from '@tabler/icons-react';
+import { IconHexagon1Filled,IconHexagon2Filled,IconHexagon3Filled,IconHexagon4Filled,IconHexagon5Filled } from '@tabler/icons-react';
 import classes from 'src/styles/WebAppsDev.module.css';
 
 const features = [
   {
-    icon: IconSquare1Filled,
+    icon: IconHexagon1Filled,
     title: 'Choose a dashboard template',
     description: 'Choose a dashboard template to base your new web app on.',
   },
   {
-    icon: IconSquare2Filled,
+    icon: IconHexagon2Filled,
     title: 'Create Github Repository',
     description: 'Use the create template button to clone the choosen dashboard template.',
   },
   {
-    icon: IconSquare3Filled,
+    icon: IconHexagon3Filled,
     title: 'Add Github SSH Key',
     description:
       'Add the SSH key provided to the repository so MICHAMP developers can pull the newly created dashboard template, begin development on requested features and commit changes.',
   },
   {
-    icon: IconSquare4Filled,
+    icon: IconHexagon4Filled,
     title: 'Request Features',
     description:
       'Request new features for your new dashboard web app.',
   },
   {
-    icon: IconSquare5Filled,
+    icon: IconHexagon5Filled,
     title: 'Review New Features',
     description:
       'Review new features as developers complete them and provide feedback for improvements.',
