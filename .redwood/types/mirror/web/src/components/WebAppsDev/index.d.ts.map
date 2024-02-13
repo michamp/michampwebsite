@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [
+    "../../../../../../../web/src/components/WebAppsDev/WebAppsDev.jsx"
+  ],
+  "names": [],
+  "mappings": ";;;AAoCA",
+  "file": "index.d.ts"
+}

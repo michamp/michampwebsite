@@ -3,6 +3,7 @@ import { Metadata } from '@redwoodjs/web'
 import NavBar from 'src/components/NavBar'
 import HeroTitle from 'src/components/HeroTitle'
 import Features from 'src/components/Features'
+import WebAppsDev from 'src/components/WebAppsDev'
 import CookiesBanner from 'src/components/CookiesBanner'
 
 import { Alert } from '@mantine/core';
@@ -18,9 +19,9 @@ const HomePage = () => {
         <NavBar/>
         <HeroTitle/>
         <Features/>
+	<WebAppsDev/>
 
-
-          <CookiesBanner/>
+        <CookiesBanner/>
 
 
 
