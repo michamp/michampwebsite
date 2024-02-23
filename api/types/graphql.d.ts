@@ -29,6 +29,7 @@ export type Scalars = {
   Int: number;
   Float: number;
   BigInt: number;
+  Byte: Buffer;
   Date: Date | string;
   DateTime: Date | string;
   JSON: Prisma.JsonValue;
@@ -122,6 +123,7 @@ export type DirectiveResolverFn<TResult = {}, TParent = {}, TContext = {}, TArgs
 export type ResolversTypes = {
   BigInt: ResolverTypeWrapper<Scalars['BigInt']>;
   Boolean: ResolverTypeWrapper<Scalars['Boolean']>;
+  Byte: ResolverTypeWrapper<Scalars['Byte']>;
   Date: ResolverTypeWrapper<Scalars['Date']>;
   DateTime: ResolverTypeWrapper<Scalars['DateTime']>;
   JSON: ResolverTypeWrapper<Scalars['JSON']>;
@@ -136,6 +138,7 @@ export type ResolversTypes = {
 export type ResolversParentTypes = {
   BigInt: Scalars['BigInt'];
   Boolean: Scalars['Boolean'];
+  Byte: Scalars['Byte'];
   Date: Scalars['Date'];
   DateTime: Scalars['DateTime'];
   JSON: Scalars['JSON'];
@@ -158,6 +161,10 @@ export type skipAuthDirectiveResolver<Result, Parent, ContextType = RedwoodGraph
 
 export interface BigIntScalarConfig extends GraphQLScalarTypeConfig<ResolversTypes['BigInt'], any> {
   name: 'BigInt';
+}
+
+export interface ByteScalarConfig extends GraphQLScalarTypeConfig<ResolversTypes['Byte'], any> {
+  name: 'Byte';
 }
 
 export interface DateScalarConfig extends GraphQLScalarTypeConfig<ResolversTypes['Date'], any> {
@@ -204,6 +211,7 @@ export interface TimeScalarConfig extends GraphQLScalarTypeConfig<ResolversTypes
 
 export type Resolvers<ContextType = RedwoodGraphQLContext> = {
   BigInt: GraphQLScalarType;
+  Byte: GraphQLScalarType;
   Date: GraphQLScalarType;
   DateTime: GraphQLScalarType;
   JSON: GraphQLScalarType;

@@ -15,27 +15,27 @@
       "code": 1
     },
     "endTime": [
-      1707536445,
-      334419462
+      1708730315,
+      215354154
     ],
     "_ended": true,
     "_duration": [
-      5,
-      164419462
+      1,
+      882354154
     ],
     "name": "cli",
     "_spanContext": {
-      "traceId": "a4d988a6afd21075cc86238f6cf80e1f",
-      "spanId": "c63f42a73183bc62",
+      "traceId": "a59757981162af198ce0fe70b06fba5b",
+      "spanId": "51a5638a3875320f",
       "traceFlags": 1
     },
     "kind": 0,
-    "_performanceStartTime": 7796.5294619998895,
-    "_performanceOffset": -0.901611328125,
+    "_performanceStartTime": 5404.149078,
+    "_performanceOffset": -0.507080078125,
     "_startTimeProvided": false,
     "startTime": [
-      1707536440,
-      170000000
+      1708730313,
+      333000000
     ],
     "resource": {
       "_attributes": {
@@ -43,14 +43,13 @@
         "telemetry.sdk.language": "nodejs",
         "telemetry.sdk.name": "opentelemetry",
         "telemetry.sdk.version": "1.18.1",
-        "service.version": "6.6.4",
+        "service.version": "7.0.2",
         "os.type": "Linux",
         "os.version": "6.1",
         "shell.name": "bash",
-        "node.version": "18.19.0",
+        "node.version": "20.11.1",
         "yarn.version": "1.22.21",
-        "npm.version": "10.2.3",
-        "vscode.version": "1.86.1",
+        "npm.version": "10.2.4",
         "cpu.count": 6,
         "memory.gb": 3,
         "env.node_env": null,
@@ -60,7 +59,7 @@
         "sides": "web,api",
         "experiments": "[\"vite\"]",
         "webBundler": "vite",
-        "uid": "74fcf38f-901d-4879-b005-f00c1e34313e"
+        "uid": "54a825ee-1963-4a05-85c6-f2ec0624843d"
       },
       "asyncAttributesPending": false,
       "_syncAttributes": {
@@ -68,14 +67,13 @@
         "telemetry.sdk.language": "nodejs",
         "telemetry.sdk.name": "opentelemetry",
         "telemetry.sdk.version": "1.18.1",
-        "service.version": "6.6.4",
+        "service.version": "7.0.2",
         "os.type": "Linux",
         "os.version": "6.1",
         "shell.name": "bash",
-        "node.version": "18.19.0",
+        "node.version": "20.11.1",
         "yarn.version": "1.22.21",
-        "npm.version": "10.2.3",
-        "vscode.version": "1.86.1",
+        "npm.version": "10.2.4",
         "cpu.count": 6,
         "memory.gb": 3,
         "env.node_env": null,
@@ -85,7 +83,7 @@
         "sides": "web,api",
         "experiments": "[\"vite\"]",
         "webBundler": "vite",
-        "uid": "74fcf38f-901d-4879-b005-f00c1e34313e"
+        "uid": "54a825ee-1963-4a05-85c6-f2ec0624843d"
       }
     },
     "instrumentationLibrary": {

@@ -9,6 +9,8 @@ directive @skipAuth on FIELD_DEFINITION
 
 scalar BigInt
 
+scalar Byte
+
 scalar Date
 
 scalar DateTime

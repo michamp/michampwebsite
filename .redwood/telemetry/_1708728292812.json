@@ -1,10 +1,10 @@
 [
   {
     "attributes": {
-      "command": "generate component",
-      "verbose": false,
-      "rollback": true,
-      "force": false
+      "command": "dev",
+      "side": "[\"api\",\"web\"]",
+      "generate": true,
+      "watchNodeModules": false
     },
     "links": [],
     "events": [],
@@ -15,27 +15,27 @@
       "code": 1
     },
     "endTime": [
-      1707535339,
-      328617001
+      1708728300,
+      474561077
     ],
     "_ended": true,
     "_duration": [
-      16,
-      448617001
+      7,
+      655561077
     ],
     "name": "cli",
     "_spanContext": {
-      "traceId": "ec47bf8690a4466e16b076d4a7f73043",
-      "spanId": "64bc94e04bcd3b08",
+      "traceId": "52d06e29ee53dcfd6e057fa551040da2",
+      "spanId": "8427f494c27532a3",
       "traceFlags": 1
     },
     "kind": 0,
-    "_performanceStartTime": 10001.815923999995,
-    "_performanceOffset": -1.27392578125,
+    "_performanceStartTime": 4789.160769999959,
+    "_performanceOffset": -1.078857421875,
     "_startTimeProvided": false,
     "startTime": [
-      1707535322,
-      880000000
+      1708728292,
+      819000000
     ],
     "resource": {
       "_attributes": {
@@ -50,7 +50,6 @@
         "node.version": "18.19.0",
         "yarn.version": "1.22.21",
         "npm.version": "10.2.3",
-        "vscode.version": "1.86.1",
         "cpu.count": 6,
         "memory.gb": 3,
         "env.node_env": null,
@@ -60,7 +59,7 @@
         "sides": "web,api",
         "experiments": "[\"vite\"]",
         "webBundler": "vite",
-        "uid": "74fcf38f-901d-4879-b005-f00c1e34313e"
+        "uid": "54a825ee-1963-4a05-85c6-f2ec0624843d"
       },
       "asyncAttributesPending": false,
       "_syncAttributes": {
@@ -75,7 +74,6 @@
         "node.version": "18.19.0",
         "yarn.version": "1.22.21",
         "npm.version": "10.2.3",
-        "vscode.version": "1.86.1",
         "cpu.count": 6,
         "memory.gb": 3,
         "env.node_env": null,
@@ -85,7 +83,7 @@
         "sides": "web,api",
         "experiments": "[\"vite\"]",
         "webBundler": "vite",
-        "uid": "74fcf38f-901d-4879-b005-f00c1e34313e"
+        "uid": "54a825ee-1963-4a05-85c6-f2ec0624843d"
       }
     },
     "instrumentationLibrary": {

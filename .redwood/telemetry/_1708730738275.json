@@ -1,10 +1,7 @@
 [
   {
     "attributes": {
-      "command": "dev",
-      "side": "[\"api\",\"web\"]",
-      "generate": true,
-      "watchNodeModules": false
+      "command": "prisma"
     },
     "links": [],
     "events": [],
@@ -15,27 +12,27 @@
       "code": 1
     },
     "endTime": [
-      1707590983,
-      544825616
+      1708730820,
+      724061774
     ],
     "_ended": true,
     "_duration": [
-      1,
-      780825616
+      82,
+      397061774
     ],
     "name": "cli",
     "_spanContext": {
-      "traceId": "5b670a3f719df958d2278ff133844f20",
-      "spanId": "c219228b86fcfdde",
+      "traceId": "ecce24d27d658dceb0f44042ec8ef842",
+      "spanId": "f34367ba76d944b6",
       "traceFlags": 1
     },
     "kind": 0,
-    "_performanceStartTime": 4712.1529230000015,
-    "_performanceOffset": -0.3427734375,
+    "_performanceStartTime": 176655.452549,
+    "_performanceOffset": -0.857666015625,
     "_startTimeProvided": false,
     "startTime": [
-      1707590981,
-      764000000
+      1708730738,
+      327000000
     ],
     "resource": {
       "_attributes": {
@@ -43,14 +40,13 @@
         "telemetry.sdk.language": "nodejs",
         "telemetry.sdk.name": "opentelemetry",
         "telemetry.sdk.version": "1.18.1",
-        "service.version": "6.6.4",
+        "service.version": "7.0.2",
         "os.type": "Linux",
         "os.version": "6.1",
         "shell.name": "bash",
-        "node.version": "18.19.0",
+        "node.version": "20.11.1",
         "yarn.version": "1.22.21",
-        "npm.version": "10.2.3",
-        "vscode.version": "1.86.1",
+        "npm.version": "10.2.4",
         "cpu.count": 6,
         "memory.gb": 3,
         "env.node_env": null,
@@ -60,7 +56,7 @@
         "sides": "web,api",
         "experiments": "[\"vite\"]",
         "webBundler": "vite",
-        "uid": "74fcf38f-901d-4879-b005-f00c1e34313e"
+        "uid": "54a825ee-1963-4a05-85c6-f2ec0624843d"
       },
       "asyncAttributesPending": false,
       "_syncAttributes": {
@@ -68,14 +64,13 @@
         "telemetry.sdk.language": "nodejs",
         "telemetry.sdk.name": "opentelemetry",
         "telemetry.sdk.version": "1.18.1",
-        "service.version": "6.6.4",
+        "service.version": "7.0.2",
         "os.type": "Linux",
         "os.version": "6.1",
         "shell.name": "bash",
-        "node.version": "18.19.0",
+        "node.version": "20.11.1",
         "yarn.version": "1.22.21",
-        "npm.version": "10.2.3",
-        "vscode.version": "1.86.1",
+        "npm.version": "10.2.4",
         "cpu.count": 6,
         "memory.gb": 3,
         "env.node_env": null,
@@ -85,7 +80,7 @@
         "sides": "web,api",
         "experiments": "[\"vite\"]",
         "webBundler": "vite",
-        "uid": "74fcf38f-901d-4879-b005-f00c1e34313e"
+        "uid": "54a825ee-1963-4a05-85c6-f2ec0624843d"
       }
     },
     "instrumentationLibrary": {
