@@ -1,8 +1,8 @@
 {
-  "localVersion": "6.6.4",
+  "localVersion": "7.0.2",
   "remoteVersions": {
-    "latest": "7.0.2"
+    "latest": "7.0.6"
   },
-  "checkedAt": 1708728300533,
-  "shownAt": 1708730846351
+  "checkedAt": 1709663332836,
+  "shownAt": 1709663357818
 }

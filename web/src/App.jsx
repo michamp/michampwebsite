@@ -12,7 +12,7 @@ import './index.css'
 
 const App = () => (
   <FatalErrorBoundary page={FatalErrorPage}>
-    <RedwoodProvider titleTemplate="%PageTitle | %AppTitle">
+    <RedwoodProvider titleTemplate="%AppTitle">
       <MantineProvider theme={theme} defaultColorScheme="dark">
         <RedwoodApolloProvider>
           <Routes />
